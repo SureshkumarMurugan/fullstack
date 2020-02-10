@@ -1,0 +1,192 @@
+ .navbar-brand svg {
+    fill: #ee2e24;
+    width: 81px;
+    height: 29px;
+    vertical-align: middle;
+    background-color: white;
+}
+#sectionHeader {
+    padding: 7px 0;
+    box-shadow: 1px 4px 4px 1px #eee;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+.navbar-nav .nav-link{
+    color: #111;
+    padding: 10px 13px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+    text-transform: capitalize;
+    position: relative;
+}
+.navbar-nav .nav-link:nth-child(1){
+    border-left: 1px solid#eee;
+    border-right: 1px solid #eee;
+    padding: 0 20px;
+}
+.nav-link i{
+    font-size: 24px;
+    position: absolute;
+    left: -7px;
+    top: -1px;
+    
+}
+/*dropdown*/
+#cityMenu{
+    background: #f3f5f7;
+}
+#cityMenu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#cityMenu ul li{
+    padding: 10px;
+}
+#cityMenu ul li a{
+    display: inline-block;
+    padding: 14px 25px;
+    color: #999;
+}
+#showcaseHero { 
+    background:linear-gradient(135.46deg,#d11450,#df293a);
+     width:100%;
+     padding:10px 0 32px;
+     margin-bottom:18px;
+} /*dropdown*/
+#cityMenu .container ul li:hover .submenu1 {
+    display: block;
+    position: absolute;
+}
+#cityMenu .container ul li ul{
+    display: block;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    background-color: white;
+    justify-content: left;
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 7cm;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#cityMenu .container ul li a:hover{
+    display: block;
+    text-decoration: none;
+    z-index: auto;
+}
+#cityMenu .container ul li ul li a:hover{
+    text-decoration: none;
+    color: #ee2e24;
+    line-height: 10px;    
+}
+#cityMenu .container ul li ul li a{
+    font-size: 15px;
+    line-height: 10px;
+}
+.submenu1{
+    display: none;
+}
+#cityMenu .container ul li:hover{
+    background-color: white;
+    height: 1.4cm;
+    border-radius: 2px  ;
+    z-index: 1;
+}
+#cityMenu .container ul li {
+    margin: 0;
+    padding: 0;
+}/**/
+#showcaseHero form .row input{
+    border-right: 0px;
+    border-radius: 2px 0 0 0 ;
+    height: 1.5cm;
+    max-width: 9cm;
+}
+#showcaseHero form .row {
+    padding: 0 0cm 0 0cm;
+}
+#showcaseHero form .row button{
+    width: 4cm;
+}
+.jumbotron{
+    padding: 0;
+}
+.jumbotron h1{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    font-weight: bold;margin: 27px 0px;
+    text-align: center;
+}
+.jumbotron .form-control{
+    box-sizing: border-box;
+    padding: 28px;
+}
+.jumbotron .row{
+    display: flex;
+    justify-content: center;
+}
+#showcaseHero  {
+    height: 7.5cm;
+}
+.jumbotron button{
+    padding: 13px 50px;
+    font-size: 18px;
+    border-radius: 0;
+}
+.jumbotron input .form-control:nth-child(1){
+    border-right: 1px solid #555;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.jumbotron input .form-control:nth-child(2){
+    border-right: 1px solid #555;
+}
+.jumbotron input .middleinput{
+    border-right: 1px solid #555;
+    text-indent: -9999px;
+}
+.nearme svg{
+      height: 15px;
+      width: 15px;
+      fill: #222;
+}
+#nearmewrapper .nearme{
+    position: absolute;
+   
+}
+.nearme {
+    position: relative;
+    z-index: 1;
+    right: 8px;
+    width: 97px;
+    top: 12px;
+    background: #eee;
+    padding: 4px 9px;
+    border-radius: 15px;
+}
+#middleSpanWrapper{
+    position: relative;
+}
+span .middleSpan{
+    position: absolute;
+    right: -14px;
+    top: 16px;
+    width: 200px;
+    color: #000;
+    font-weight: 600;
+}
+span .middleSpan span{
+    margin: 0px 5px;
+    display: inline-block;
+}
+/*important*/
+::placeholder{
+    color: #000 !important;
+    font-weight: 600 !important;
+    padding: 0 0 0 0cm;
+}
